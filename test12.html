@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var i = 1;
+    var j = 1;
+    var arr = [];
+    for (i=2; i<10; i++){
+      for (j=1; j<10; j++){
+        arr.push(i*j);
+      }
+      j = 1;
+      document.write(arr);
+      document.write('<br>');
+      arr = [];
+    }
+  </script>
+</body>
+</html>
